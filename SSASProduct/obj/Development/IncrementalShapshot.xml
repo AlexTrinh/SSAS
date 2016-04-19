@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSASProduct</Database>
+    <Server>.\multidim</Server>
+    <ConnectionString>DataSource=.\multidim;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ZC0rhHLOwNJJ0D2mTWbDsZBs840=19/04/2016 11:39:16 AM19/04/2016 12:04:19 PM</TimeStamp>
+        <ID>
+          <String>BIDM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tCGF2j3PC5U9Q4PWjBbCCQz2bqU=19/04/2016 12:21:46 PM19/04/2016 12:21:13 PM</TimeStamp>
+        <ID>
+          <String>BIDM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cN0oia8cqRr3SRE37SfHWJUc0Uc=19/04/2016 12:21:46 PM19/04/2016 12:21:46 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ggWQsBfW4FGPA3qxJj+rK08iYZk=19/04/2016 12:21:46 PM19/04/2016 12:21:46 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Order Header</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JRxBRZfhPWN0zi+ck+qw9+2ulUA=19/04/2016 12:21:46 PM19/04/2016 12:21:46 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Order Detail</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0rDjXv7M4WofeBoJF/3wmblRjw0=19/04/2016 12:21:46 PM19/04/2016 12:21:46 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>c1aIIcciEZJbNlB8UeMoN1vZAxE=19/04/2016 12:21:46 PM19/04/2016 12:21:46 PMKgyl8RWJnZ5WC28EjmEBVSHSzGI=19/04/2016 12:21:46 PM19/04/2016 12:21:46 PM</TimeStamp>
+        <ID>
+          <String>BIDM</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>gqy/q002obW1V5ONgkb/QcOaOlI=19/04/2016 11:25:18 AM19/04/2016 12:04:19 PM</TimeStamp>
+      <ID>
+        <String>SSASProduct</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-19T16:58:52.8Z</LastDeployed>
+</DeploymentSnapshot>
